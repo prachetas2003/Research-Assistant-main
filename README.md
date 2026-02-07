@@ -23,7 +23,7 @@
 
 ## 📦 How to Use
 
-1. **Install Research Sathi**  
+1. **Installation**  
    Download and install the extension manually, load it from source.
 
 2. **Summarize Text**  
