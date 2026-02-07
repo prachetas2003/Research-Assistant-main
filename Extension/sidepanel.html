@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Research Sathi</title>
+    <link rel="stylesheet" href="sidepanel.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>Research Sathi</h2>
+            <button class="theme-toggle" id="themeToggle" title="Toggle theme">
+                <span class="icon" id="themeIcon">Dark</span>
+                 
+            </button>
+        </div>
+
+        <div class="actions">
+            <button class="btn btn-primary" id="summarizeBtn">
+                <!-- <span class="icon">📝</span> -->
+                Summarize
+            </button>
+            <button class="btn btn-primary" id="suggestBtn">Suggest</button>
+        </div>
+
+        <div class="youtube-section">
+            <input type="text" id="youtubeUrlInput" class="notes-textarea" placeholder="Paste YouTube video URL here..." style="height:40px;margin-bottom:8px;">
+            <button class="btn btn-primary" id="youtubeSummaryBtn">YouTube Summary</button>
+        </div>
+
+        <div class="notes-section">
+            <h3>
+                <!-- <span class="icon">📋</span> -->
+                Research Notes
+            </h3>
+            <textarea 
+                class="notes-textarea" 
+                id="notes" 
+                placeholder="Take your research notes here... You can jot down key insights, important quotes, or any thoughts while browsing."
+            ></textarea>
+            <button class="btn btn-secondary" id="saveNotesBtn">
+                <!-- <span class="icon">💾</span> -->
+                Save Notes
+            </button>
+        </div>
+
+        <div class="results" id="results"></div>
+    </div>
+    <script src="sidepanel.js"></script>
+</body>
+</html>
