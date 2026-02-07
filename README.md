@@ -1,6 +1,6 @@
-# Research Sathi - Your Smart Research Companion
+# Research Assistant- Your Smart Research Companion
 
-**Research Sathi** is a Chrome extension designed to help you research faster, smarter, and more efficiently anywhere on the web.
+**Research Assistant** is a Chrome extension designed to help you research faster, smarter, and more efficiently anywhere on the web.
 
 ---
 
@@ -18,9 +18,6 @@
 - **Minimal Workflow Disruption**  
   No need to copy-paste! Summarize and jot down insights while you read—without leaving your browsing tab.
 
-- **YouTube Video Summary**  
-  Paste any YouTube video link in the extension sidebar’s search bar and click “YouTube Summary.”  
-  The extension will fetch the video transcript (supports English, Hindi, Bangla, and auto-generated captions) and generate a concise summary of the main points and key takeaways.
 
 ---
 
